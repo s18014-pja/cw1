@@ -17,6 +17,18 @@
         </e>
       </e>
       <e p="cw1.sln" t="IncludeFlat" />
+      <e p="cw2" t="IncludeRecursive">
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cw2.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="cw2.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>
